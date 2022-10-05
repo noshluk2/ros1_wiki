@@ -1,2 +1,2 @@
-# ros1_wiki
-This repository contains video demonstration and explanation for ROS1 Wiki pages
+# ROS1 Wiki Tutorials with Video Lectures
+This repository contains packages and files for all lectures of ros1 wiki
