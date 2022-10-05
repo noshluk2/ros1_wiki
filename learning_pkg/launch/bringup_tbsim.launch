@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<launch>
+
+    <arg name="name" default="turtle"/>
+    <arg name="keyboard_name" default="keyboard"/>
+    <arg name="vel_topic" default="velocity"/>
+    <arg name="show_sim" default="false"/>
+
+
+
+  <group if="$(arg show_sim)">
+    <node pkg="turtlesim" type="turtlesim_node" name="$(arg name)">
+        <remap from="/turtle1/cmd_vel" to="$(arg vel_topic)"/>
+    </node>
+  </group>
+
+
+
+    <node pkg="turtlesim" type="turtle_teleop_key" name="turtlesim_teleop_key">
+        <remap from="/turtle1/cmd_vel" to="$(arg vel_topic)"/>
+    </node>
+
+
+
+
+</launch>

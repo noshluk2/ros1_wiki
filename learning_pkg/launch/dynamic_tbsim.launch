@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<launch>
+
+    <include file="$(find learning_pkg)/launch/bringup_tbsim.launch">
+        <arg name="name" value="tbsim_1"/>
+        <arg name="keyboard_name" value="tbsim_kb_1"/>
+        <arg name="vel_topic" value="tb1_vel"/>
+        <arg name="show_sim" value="true"/>
+        <param name="/tbsim_1/background_b" value="0"/>
+
+    </include>
+
+    <!-- <include file="$(find learning_pkg)/launch/bringup_tbsim.launch">
+        <arg name="name" value="tbsim_2"/>
+        <arg name="keyboard_name" value="tbsim_kb_2"/>
+        <arg name="vel_topic" value="tb2_vel"/>
+
+    </include>
+
+    <include file="$(find learning_pkg)/launch/bringup_tbsim.launch">
+        <arg name="name" value="tbsim_3"/>
+        <arg name="keyboard_name" value="tbsim_kb_3"/>
+        <arg name="vel_topic" value="tb3_vel"/>
+    </include>
+
+    <include file="$(find learning_pkg)/launch/bringup_tbsim.launch">
+        <arg name="name" value="tbsim_4"/>
+        <arg name="keyboard_name" value="tbsim_kb_4"/>
+        <arg name="vel_topic" value="tb4_vel"/>
+    </include>
+
+    <include file="$(find learning_pkg)/launch/bringup_tbsim.launch">
+        <arg name="name" value="tbsim_5"/>
+        <arg name="keyboard_name" value="tbsim_kb_5"/>
+        <arg name="vel_topic" value="tb5_vel"/>
+    </include> -->
+</launch>
