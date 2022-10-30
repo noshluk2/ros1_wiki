@@ -1,0 +1,38 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/luqman/ADWA_ws/devel/include/**",
+        "/home/luqman/ros_ws/devel/include/**",
+        "/home/luqman/r1_wiki_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/luqman/ros_ws/src/frontier_exploration/exploration_server/include/**",
+        "/home/luqman/ros_ws/src/frontier_exploration/frontier_exploration/include/**",
+        "/home/luqman/r1_wiki_ws/src/hector-quadrotor-noetic/hector_gazebo/hector_gazebo_plugins/include/**",
+        "/home/luqman/r1_wiki_ws/src/hector-quadrotor-noetic/hector_gazebo/hector_gazebo_thermal_camera/include/**",
+        "/home/luqman/r1_wiki_ws/src/hector-quadrotor-noetic/hector_localization/hector_pose_estimation/include/**",
+        "/home/luqman/r1_wiki_ws/src/hector-quadrotor-noetic/hector_localization/hector_pose_estimation_core/include/**",
+        "/home/luqman/r1_wiki_ws/src/hector-quadrotor-noetic/hector_quadrotor/hector_quadrotor_controller/include/**",
+        "/home/luqman/r1_wiki_ws/src/hector-quadrotor-noetic/hector_quadrotor/hector_quadrotor_controller_gazebo/include/**",
+        "/home/luqman/r1_wiki_ws/src/hector-quadrotor-noetic/hector_quadrotor/hector_quadrotor_gazebo_plugins/include/**",
+        "/home/luqman/r1_wiki_ws/src/hector-quadrotor-noetic/hector_quadrotor/hector_quadrotor_model/include/**",
+        "/home/luqman/r1_wiki_ws/src/hector-quadrotor-noetic/hector_quadrotor/hector_quadrotor_pose_estimation/include/**",
+        "/home/luqman/r1_wiki_ws/src/hector-quadrotor-noetic/hector_quadrotor/hector_uav_msgs/include/**",
+        "/home/luqman/ros_ws/src/frontier_exploration/polygon_layer/include/**",
+        "/home/luqman/r1_wiki_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/luqman/r1_wiki_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

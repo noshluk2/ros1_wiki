@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/luqman/r1_wiki_ws/devel/lib/python3/dist-packages",
+        "/home/luqman/ADWA_ws/devel/lib/python3/dist-packages",
+        "/home/luqman/ros_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
