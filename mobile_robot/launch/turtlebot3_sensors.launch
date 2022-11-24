@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+
+<arg name="camera_enable" default="false"/>
+<arg name="lidar_enable" default="false"/>
+
+<include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch">
+
+</include>
+
+<group if="$(arg camera_enable)">
+    <node name="camera_sensor" pkg="mobile_robot" type="camera_sensor.py" output="screen"/>
+</group>
+
+<group if="$(arg lidar_enable)">
+    <node name="lidar_sensor" pkg="mobile_robot" type="lidar_sensor.py" output="screen"/>
+</group>
+
+</launch>
